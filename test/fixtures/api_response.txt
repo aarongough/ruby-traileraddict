@@ -1,0 +1,26 @@
+HTTP/1.1 200 OK
+Date: Wed, 26 May 2010 17:43:02 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.2
+Vary: Accept-Encoding
+Content-Length: 797
+Content-Type: text/xml
+
+<?xml version="1.0" encoding="utf-8"?> 
+
+	<trailers> 
+
+ <trailer> 
+
+  <title>Iron Man: Trailer</title>  
+
+  <link>http://www.traileraddict.com/trailer/iron-man/trailer</link>  
+
+  <pubDate>Fri, 29 Feb 2008 00:49:48 -0800</pubDate>  
+
+  <trailer_id>3899</trailer_id>  
+
+  <embed><![CDATA[<object width="450" height="241"><param name="movie" value="http://www.traileraddict.com/emd/3899"></param><param name="allowscriptaccess" value="always"></param><param name="wmode" value="transparent"></param><param name="allowfullscreen" value="true"></param><embed src="http://www.traileraddict.com/emd/3899" type="application/x-shockwave-flash" wmode="transparent" allowfullscreen="true" allowscriptaccess="always" width="450" height="241"></embed></object>]]> </embed>  
+
+  </trailer> 
+</trailers>

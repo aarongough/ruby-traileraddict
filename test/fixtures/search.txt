@@ -1,0 +1,1161 @@
+HTTP/1.1 200 OK
+Date: Wed, 26 May 2010 17:34:20 GMT
+Server: Apache
+X-Powered-By: PHP/5.3.2
+Vary: Accept-Encoding
+Transfer-Encoding: chunked
+Content-Type: text/html
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<LINK REL=stylesheet HREF="/css/version1.css" TYPE="text/css">
+<title>Search Trailer Addict</title>
+<style>
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+</style>
+<style type="text/css">
+
+.rightthumb {
+margin:3px 4px 0px 0px; 
+float:left; 
+border:0px;
+}
+</style>
+
+<script type="text/javascript">
+
+/***********************************************
+* Gradual Highlight image script- © Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+var baseopacity=50
+
+function slowhigh(which2){
+imgobj=which2
+browserdetect=which2.filters? "ie" : typeof which2.style.MozOpacity=="string"? "mozilla" : ""
+instantset(baseopacity)
+highlighting=setInterval("gradualfade(imgobj)",50)
+}
+
+function slowlow(which2){
+cleartimer()
+instantset(baseopacity)
+}
+
+function instantset(degree){
+if (browserdetect=="mozilla")
+imgobj.style.MozOpacity=degree/100
+else if (browserdetect=="ie")
+imgobj.filters.alpha.opacity=degree
+}
+
+function cleartimer(){
+if (window.highlighting) clearInterval(highlighting)
+}
+
+function gradualfade(cur2){
+if (browserdetect=="mozilla" && cur2.style.MozOpacity<1)
+cur2.style.MozOpacity=Math.min(parseFloat(cur2.style.MozOpacity)+0.1, 0.99)
+else if (browserdetect=="ie" && cur2.filters.alpha.opacity<100)
+cur2.filters.alpha.opacity+=10
+else if (window.highlighting)
+clearInterval(highlighting)
+}
+
+</script>
+
+<style>
+.sideinfo {
+border-bottom: 1px dotted #8d8d8d;
+font: normal .96em/1.3em arial, helvetica, sans-serif;
+color: #8d8d8d;
+height:80px;
+text-align:left;
+}
+.sideinfo h2 {
+font-size:9pt;
+font-weight:bold;
+display:inline;
+line-height:1.7em;
+
+}
+.searchthumb {
+width:90px; height:140px; margin:4px;
+}
+</style>
+<script src="/java/uppermenu.js"></script>
+</head>
+
+<body>
+<center>
+<!-- userbar -->
+<script>
+function filmtop(char) {
+var actioncheck = document.getElementById("fdb");
+
+	if (actioncheck != null) {
+	window.frames["fdb"].location.href='/fdb.php?char='+ char;
+	} else {
+	
+		if(char == 9) {
+		 window.location.href = '/thefilms';
+		} else {
+		window.location.href = '/thefilms/'+ char;
+		}
+	}
+	
+}
+userpic1= new Image(102,22); 
+userpic1.src="/images/usr/top-inputbg.png"; 
+userpic2= new Image(102,22); 
+userpic2.src="/images/usr/top-inputbg-user.png"; 
+userpic3= new Image(102,22); 
+userpic3.src="/images/usr/top-inputbg-pw.png"; 
+</script>
+<div style="width:100%; margin:0px 0px 2px 0px; height: 32px; background:url(/images/topbg.png) repeat-x; text-align:center; padding-top:6px;">
+<div style="width:940px; text-align:left; margin:auto;">
+<div style="width:330px; height:24px; text-align:right; color:#B1B1B1; float:right;">
+ <a href="javascript:void(0);" onclick="window.location.href='/user-recovery';"><img src="/images/usr/top-joinus.png" border="0" style="float:right; margin:0px 0px 0px 6px;" /></a>
+ <form method="post" action="/usrlog" style="display:inline;" /><input type="image" src="/images/usr/top-loginbutton.png" height="22" width="29" border="0" alt="Login" title="Login" style="border:0px; float:right; margin-left:2px;" tabindex="3"><input name="email" type="password" value="" style="font-size:7pt; height:14px; width:94px; padding:4px; float:right; margin:0px 0px 0px 0px; border:0px; background:url(/images/usr/top-inputbg-pw.png);" onFocus="if(this.value=='')this.style.backgroundImage='url(/images/usr/top-inputbg.png)'" onBlur="if(this.value=='')this.style.backgroundImage='url(/images/usr/top-inputbg-pw.png)';" tabindex="2"><input name="username" type="text" value="" style="font-size:7pt; height:14px; width:94px; padding:4px; float:right; margin:0px 3px 0px 0px; border:0px; background:url(/images/usr/top-inputbg-user.png);" onFocus="if(this.value=='')this.style.backgroundImage='url(/images/usr/top-inputbg.png)'" onBlur="if(this.value=='')this.style.backgroundImage='url(/images/usr/top-inputbg-user.png)';" tabindex="1" /> </form></div> <img src="/images/top-title.png" style="float:left;" />
+ <div style="width:342px; height:17px; background:url(/images/topfilms.png); float:left; margin-left:72px; padding:5px 0px 0px 58px; font-size:7pt; letter-spacing:1px;"><div style="position:relative; width:1px; height:1px;"><div style="position:absolute; width:736px; height:56px; background:url(/images/filmpop.png); left:-60px; top:24px; padding:12px 14px 12px 14px; text-align:center; display:none;" id="filmtop-info">
+ 
+ </div></div><a href="javascript:void(0);" onclick="filmtop('9');">#</a> <a href="javascript:void(0);" onclick="filmtop('a');">A</a> <a href="javascript:void(0);" onclick="filmtop('b');">B</a> <a href="javascript:void(0);" onclick="filmtop('c');">C</a> <a href="javascript:void(0);" onclick="filmtop('d');">D</a> <a href="javascript:void(0);" onclick="filmtop('e');">E</a> <a href="javascript:void(0);" onclick="filmtop('f');">F</a> <a href="javascript:void(0);" onclick="filmtop('g');">G</a> <a href="javascript:void(0);" onclick="filmtop('h');">H</a> <a href="javascript:void(0);" onclick="filmtop('i');">I</a> <a href="javascript:void(0);" onclick="filmtop('j');">J</a> <a href="javascript:void(0);" onclick="filmtop('k');">K</a> <a href="javascript:void(0);" onclick="filmtop('l');">L</a> <a href="javascript:void(0);" onclick="filmtop('m');">M</a> <a href="javascript:void(0);" onclick="filmtop('n');">N</a> <a href="javascript:void(0);" onclick="filmtop('o');">O</a> <a href="javascript:void(0);" onclick="filmtop('p');">P</a> <a href="javascript:void(0);" onclick="filmtop('q');">Q</a> <a href="javascript:void(0);" onclick="filmtop('r');">R</a> <a href="javascript:void(0);" onclick="filmtop('s');">S</a> <a href="javascript:void(0);" onclick="filmtop('t');">T</a> <a href="javascript:void(0);" onclick="filmtop('u');">U</a> <a href="javascript:void(0);" onclick="filmtop('v');">V</a> <a href="javascript:void(0);" onclick="filmtop('w');">W</a> <a href="javascript:void(0);" onclick="filmtop('x');">X</a> <a href="javascript:void(0);" onclick="filmtop('y');">Y</a> <a href="javascript:void(0);" onclick="filmtop('z');">Z</a></div>
+ 
+ </div>
+ </div>
+<!-- end userbar -->
+<!-- titlebar -->
+<div class="tinfo" style="text-align:left; width:940px; margin-top:4px; border-top:0px;">
+  <a href="http://www.traileraddict.com"><img src="/images/widgettop.png" alt="Trailer Addict" width="360" height="70" border="0" /></a>  </div>
+<!-- end titlebar --><br />
+
+<div style="position:relative; top:-3px; text-align:right; width:940px; margin-bottom:6px;">
+
+<div style="float:left; width:200px; height:84px; background:url(/images/newsearch.png); position:relative; top:3px;">
+<form style="display:inline;" method="get" action="http://www.traileraddict.com/search.php">
+<input type="hidden" name="domains" value="www.traileraddict.com"></input>
+<input type="hidden" name="sitesearch" value="www.traileraddict.com" id="ss1"></input>
+<input type="text" name="q" size="25" maxlength="120" value="keywords" id="sbi" align="middle" style="position:relative; top:28px; left:17px; float:left; background-color: transparent; border:none;" onFocus="if(this.value=='keywords')value=''" onBlur="if(this.value=='')value='keywords';"></input>
+<input type="hidden" name="client" value="pub-8929492375389186"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="channel" value="4779144239"></input>
+<input type="hidden" name="ie" value="ISO-8859-1"></input>
+<input type="hidden" name="oe" value="ISO-8859-1"></input>
+<input type="hidden" name="safe" value="active"></input>
+<input type="hidden" name="cof" value="GALT:#5A5A5A;GL:1;DIV:#336699;VLC:CD0A11;AH:center;BGC:FFFFFF;LBGC:FFFFFF;ALC:CD0A11;LC:CD0A11;T:000000;GFNT:CD0A11;GIMP:CD0A11;LH:50;LW:227;L:http://www.traileraddict.com/images/google.png;S:http://www.traileraddict.com;FORID:11"></input>
+<input type="hidden" name="hl" value="en"></input>
+</input>
+</form>
+<br /><br /><br /><br />
+<a href="/tagbrowser"><img src="/images/transparent.gif" width="96" height="18" style="clear:left; position:relative; top:2px; right:52px;" border="0" /></a>
+</div>
+
+<div style="min-width:460px; float:right;"><script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https:///ajs.php':'http://optimize.indieclick.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=141202");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://optimize.indieclick.com/www/delivery/ck.php?n=a9850118&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://optimize.indieclick.com/www/delivery/avw.php?zoneid=141202&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a9850118' border='0' alt='' /></a></noscript></div></div>
+
+<!-- body -->
+<div class="mainbg clearfix">
+
+<!-- left column -->
+<div class="leftcolumn">
+<div style="background:url(/images/topsearch.png); width:600px; height:30px; color:#5A5A5A; font-family: Arial, Helvetica, sans-serif; font-weight:bold; margin:2px 0px 4px 0px;">
+<div style="padding-top:8px">
+Can't find what you're looking for? Check out our entire <a href="/thefilms">film database</a>.</div>
+</div>
+
+<!-- custom find -->
+<div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/paramount-pictures/ironman.jpg);" class="searchthumb"><a href="/tags/iron-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/iron-man">Iron Man</a><br />
+<span style="font-size:7pt;">May 2, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Jon Favreau<br />
+<span style="color:#6D7D31;">Writer:</span> Art Marcum, Matt Holloway, Mark Fergus, Hawk Ostby<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Robert Downey,  Jr.,  Terrence Howard<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (27) | Clips (16) | Posters (4)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/paramount-pictures/iron_man2.jpg);" class="searchthumb"><a href="/tags/iron-man-2"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/iron-man-2">Iron Man 2</a><br />
+<span style="font-size:7pt;">May 7, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Jon Favreau<br />
+<span style="color:#6D7D31;">Writer:</span> Justin Theroux<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Robert Downey Jr.,  Gwyneth Paltrow,  Don Cheadle<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (59) | Clips (5) | Posters (15)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/insideman.jpg);" class="searchthumb"><a href="/tags/inside-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/inside-man">Inside Man</a><br />
+<span style="font-size:7pt;">March 24, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Spike Lee<br />
+<span style="color:#6D7D31;">Writer:</span> Russell Gewirtz<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Denzel Washington,  Clive Owen,  Jodie Foster<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/columbia-pictures/spiderman.jpg);" class="searchthumb"><a href="/tags/spider-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/spider-man">Spider-Man</a><br />
+<span style="font-size:7pt;">May 3, 2002</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Sam Raimi<br />
+<span style="color:#6D7D31;">Writer:</span> David Koepp, Alvin Sargent<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Tobey Maguire,  Willem Dafoe,  Kirsten Dunst<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (3) | Clips (0) | Posters (3)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/columbia-pictures/spiderman2.jpg);" class="searchthumb"><a href="/tags/spider-man-2"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/spider-man-2">Spider-Man 2</a><br />
+<span style="font-size:7pt;">June 30, 2004</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Sam Raimi<br />
+<span style="color:#6D7D31;">Writer:</span> David Koepp, Alvin Sargent<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Tobey Maguire,  Willem Dafoe,  Kirsten Dunst<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (5) | Clips (0) | Posters (5)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/columbia-pictures/spiderman3.jpg);" class="searchthumb"><a href="/tags/spider-man-3"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/spider-man-3">Spider-Man 3</a><br />
+<span style="font-size:7pt;">May 4, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Sam Raimi<br />
+<span style="color:#6D7D31;">Writer:</span> Sam Raimi, Ivan Raimi, Alvin Sargent<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Tobey Maguire,  Willem Dafoe,  Kirsten Dunst<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (5) | Clips (0) | Posters (5)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/cinderellaman.jpg);" class="searchthumb"><a href="/tags/cinderella-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/cinderella-man">Cinderella Man</a><br />
+<span style="font-size:7pt;">June 3, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Ron Howard<br />
+<span style="color:#6D7D31;">Writer:</span> Cliff Hollingsworth, C. Gaby Mitchell, Akiva Goldsman<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Russell Crowe,  Ren?e Zellweger,  Paul Giamatti<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/columbia-pictures/littleman.jpg);" class="searchthumb"><a href="/tags/little-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/little-man">Little Man</a><br />
+<span style="font-size:7pt;">July 14, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Keenen Ivory Wayans<br />
+<span style="color:#6D7D31;">Writer:</span> Keenen Ivory Wayans, Marlon Wayans, Shawn Wayans<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Marlon Wayans,  Shawn Wayans,  Kerry Washington<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/warner-bros-pictures/wickerman.jpg);" class="searchthumb"><a href="/tags/wicker-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/wicker-man">The Wicker Man</a><br />
+<span style="font-size:7pt;">September 1, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Neil LaBute<br />
+<span style="color:#6D7D31;">Writer:</span> Neil LaBute<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Nicolas Cage,  Leelee Sobieski,  Ellen Burstyn<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/manoftheyear.jpg);" class="searchthumb"><a href="/tags/man-of-the-year"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-of-the-year">Man of the Year</a><br />
+<span style="font-size:7pt;">October 13, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Barry Levinson<br />
+<span style="color:#6D7D31;">Writer:</span> Barry Levinson<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Robin Williams,  Christopher Walken,  Laura Linney<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (3) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/paramount-pictures/elephantman.jpg);" class="searchthumb"><a href="/tags/elephant-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/elephant-man">The Elephant Man</a><br />
+<span style="font-size:7pt;">October 3, 1980</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> David Lynch<br />
+<span style="color:#6D7D31;">Writer:</span> Christopher De Vore, Eric Bergrenl, David Lynch<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Anthony Hopkins,  John Hurt,  Anne Bancroft<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/dreamworks-pictures/shestheman.jpg);" class="searchthumb"><a href="/tags/shes-the-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/shes-the-man">She's the Man</a><br />
+<span style="font-size:7pt;">March 17, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Andy Fickman<br />
+<span style="color:#6D7D31;">Writer:</span> Ewan Leslie, Karen McCullah Lutz, Kirsten Smith<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Amanda Bynes,  James Kirk,  Julie Hagerty<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/paramount-pictures/marathonman.jpg);" class="searchthumb"><a href="/tags/marathon-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/marathon-man">Marathon Man</a><br />
+<span style="font-size:7pt;">October 6, 1976</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> John Schlesinger<br />
+<span style="color:#6D7D31;">Writer:</span> William Goldman (book and screenplay)<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Dustin Hoffman,  Laurence Olivier,  Roy Scheider<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/mgm/rainman.jpg);" class="searchthumb"><a href="/tags/rain-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/rain-man">Rain Man</a><br />
+<span style="font-size:7pt;">December 16, 1988</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Barry Levinson<br />
+<span style="color:#6D7D31;">Writer:</span> Barry Morrow, Ronald Bass<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Dustin Hoffman,  Tom Cruise,  Valeria Golino<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/tristar-pictures/runningman.jpg);" class="searchthumb"><a href="/tags/the-running-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-running-man">The Running Man</a><br />
+<span style="font-size:7pt;">November 13, 1987</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Paul Michael Glaser<br />
+<span style="color:#6D7D31;">Writer:</span> Stephen King (novel), Steven E. de Souza<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Arnold Schwarzenegger,  Maria Conchita Alonso,  Yaphet Kotto<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/paramount-pictures/theweatherman.jpg);" class="searchthumb"><a href="/tags/the-weather-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-weather-man">The Weather Man</a><br />
+<span style="font-size:7pt;">October 28, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Gore Verbinski<br />
+<span style="color:#6D7D31;">Writer:</span> Steven Conrad<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Nicolas Cage,  Michael Caine,  Hope Davis<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (2) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/fox-searchlight/trust_the_man.jpg);" class="searchthumb"><a href="/tags/trust-the-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/trust-the-man">Trust the Man</a><br />
+<span style="font-size:7pt;">August 18, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Bart Freundlich<br />
+<span style="color:#6D7D31;">Writer:</span> Bart Freundlich<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> David Duchovny,  Julianne Moore,  Billy Crudup<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/perfect_man.jpg);" class="searchthumb"><a href="/tags/the-perfect-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-perfect-man">The Perfect Man</a><br />
+<span style="font-size:7pt;">June 17, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Mark Rosman<br />
+<span style="color:#6D7D31;">Writer:</span> Michael McQuown, Heather Robinson, Katherine Torpey, Gina Wendkos<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Hilary Duff,  Heather Locklear,  Chris Noth<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/lionsgate/grizzlyman.jpg);" class="searchthumb"><a href="/tags/grizzly-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/grizzly-man">Grizzly Man</a><br />
+<span style="font-size:7pt;">August 12, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Werner Herzog<br />
+<span style="color:#6D7D31;">Writer:</span> <br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Timothy Treadwell,  Amie Huguenard<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/new-line-cinema/man_apart.jpg);" class="searchthumb"><a href="/tags/a-man-apart"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-man-apart">A Man Apart</a><br />
+<span style="font-size:7pt;">April 4, 2003</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> F. Gary Gray<br />
+<span style="color:#6D7D31;">Writer:</span> Christian Gudegast, Paul Scheuring<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Vin Diesel,  Larenz Tate,  Timothy Olyphant<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/samuel-goldwyn-films/man_from_elysian_fields.jpg);" class="searchthumb"><a href="/tags/the-man-from-elysian-fields"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-from-elysian-fields">The Man from Elysian Fields</a><br />
+<span style="font-size:7pt;">October 4, 2002</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> George Hickenlooper<br />
+<span style="color:#6D7D31;">Writer:</span> Phillip Jayson Lasker<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Andy Garcia,  Mick Jagger,  Julianna Margulies<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/20th-century-fox/man_on_fire.jpg);" class="searchthumb"><a href="/tags/man-on-fire"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-on-fire">Man on Fire</a><br />
+<span style="font-size:7pt;">April 23, 2004</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Tony Scott<br />
+<span style="color:#6D7D31;">Writer:</span> A.J. Quinnell (Book), Brian Helgeland (Screenplay)<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Denzel Washington,  Dakota Fanning,  Christopher Walken<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/columbia-pictures/manofthehouse.jpg);" class="searchthumb"><a href="/tags/man-of-the-house"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-of-the-house">Man of the House</a><br />
+<span style="font-size:7pt;">February 25, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Stephen Herek<br />
+<span style="color:#6D7D31;">Writer:</span> John J. McLaughlin, Scott Lobdell<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Tommy Lee Jones,  Cedric the Entertainer,  Christina Milian<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/paramount-classics/manonthetrain.jpg);" class="searchthumb"><a href="/tags/the-man-on-the-train"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-on-the-train">The Man on the Train (L'homme du train)</a><br />
+<span style="font-size:7pt;">May 9, 2003</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Patrice Leconte<br />
+<span style="color:#6D7D31;">Writer:</span> Claude Klotz<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jean Rochefort,  Johnny Hallyday,  Jean-François Stévenin<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/sony-pictures-classics/manwithoutapast.jpg);" class="searchthumb"><a href="/tags/the-man-without-a-past"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-without-a-past">The Man Without a Past</a><br />
+<span style="font-size:7pt;">April 4, 2003</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Aki Kaurismäki<br />
+<span style="color:#6D7D31;">Writer:</span> Aki Kaurismäki<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Markku Peltola,  Kati Outinen,  Juhani Niemela<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/tla-releasing/manwhocopied.jpg);" class="searchthumb"><a href="/tags/the-man-who-copied"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-who-copied">The Man Who Copied (O Homem Que Copiava)</a><br />
+<span style="font-size:7pt;">April 22, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Jorge Furtado<br />
+<span style="color:#6D7D31;">Writer:</span> Jorge Furtado<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Lazaro Ramos,  Leandra Leal,  Luana Piovani<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/outsider-pictures/maninthechair.jpg);" class="searchthumb"><a href="/tags/man-in-the-chair"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-in-the-chair">Man in the Chair</a><br />
+<span style="font-size:7pt;">December 7, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Michael Schroeder<br />
+<span style="color:#6D7D31;">Writer:</span> Michael Schroeder<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Christopher Plummer,  Michael Angarano,  M. Emmet Walsh<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/sony-pictures-classics/jimmycarterplains.jpg);" class="searchthumb"><a href="/tags/jimmy-carter-plains"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/jimmy-carter-plains">Jimmy Carter Man From Plains</a><br />
+<span style="font-size:7pt;">October 26, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Jonathan Demme<br />
+<span style="color:#6D7D31;">Writer:</span> Not Available<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Unknown or Not Available<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/lionsgate/leonard_cohen.jpg);" class="searchthumb"><a href="/tags/leonard-cohen-im-your-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/leonard-cohen-im-your-man">Leonard Cohen: I'm Your Man</a><br />
+<span style="font-size:7pt;">June 21, 2006</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Lian Lunson<br />
+<span style="color:#6D7D31;">Writer:</span> Lian Lunson<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Leonard Cohen,  Bono,  Nick Cave<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/bleiberg-entertainment/hewasquietman.jpg);" class="searchthumb"><a href="/tags/he-was-quiet-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/he-was-quiet-man">He Was a Quiet Man</a><br />
+<span style="font-size:7pt;">November 30, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Frank A. Cappello<br />
+<span style="color:#6D7D31;">Writer:</span> Frank A. Cappello<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Christian Slater,  Elisha Cuthbert,  William H. Macy<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/warner-bros-pictures/yes_man.jpg);" class="searchthumb"><a href="/tags/yes-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/yes-man">Yes Man</a><br />
+<span style="font-size:7pt;">December 19, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Peyton Reed<br />
+<span style="color:#6D7D31;">Writer:</span>  Nicholas Stoller, Jarrad Paul, Andrew Mogel<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jim Carrey,  Zooey Deschanel,  Bradley Cooper<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (12) | Clips (9) | Posters (4)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/magnolia-pictures/manonwire.jpg);" class="searchthumb"><a href="/tags/man-on-wire"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-on-wire">Man on Wire</a><br />
+<span style="font-size:7pt;">August 1, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> James Marsh<br />
+<span style="color:#6D7D31;">Writer:</span> James Marsh<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Ardis Campbell,  David Demato,  David Roland Frank<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (1) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/spiderman-4"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/spiderman-4">Spider-Man 4</a><br />
+<span style="font-size:7pt;">May 2011</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> N/A<br />
+<span style="color:#6D7D31;">Writer:</span> Steve Ditko, Stan Lee, James Vanderbilt	<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> N/A<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/thinkfilm/mommas_man.jpg);" class="searchthumb"><a href="/tags/mommas-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/mommas-man">Momma's Man</a><br />
+<span style="font-size:7pt;">August 22, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Azazel Jacobs<br />
+<span style="color:#6D7D31;">Writer:</span> Azazel Jacobs<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Matt Boren,  Flo Jacobs,  Ken Jacobs<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/soda-pictures/chokingman.jpg);" class="searchthumb"><a href="/tags/choking-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/choking-man">Choking Man</a><br />
+<span style="font-size:7pt;">November 14, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Steve Barron<br />
+<span style="color:#6D7D31;">Writer:</span> Steve Barron<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Octavio Gómez,  Eugenia Yuan,  Aaron Paul<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/theotherman.jpg);" class="searchthumb"><a href="/tags/the-other-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-other-man">The Other Man</a><br />
+<span style="font-size:7pt;">August 7, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Richard Eyrev<br />
+<span style="color:#6D7D31;">Writer:</span> Richard Eyre, Bernhard Schlink (short story)<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Liam Neeson,  Laura Linney,  Antonio Banderas<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (4)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/dreamworks-pictures/iloveyouman.jpg);" class="searchthumb"><a href="/tags/i-love-you-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/i-love-you-man">I Love You, Man</a><br />
+<span style="font-size:7pt;">March 20, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> John Hamburg<br />
+<span style="color:#6D7D31;">Writer:</span> John Hamburg<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Paul Rudd,  Jason Segel,  Jaime Pressly<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (30) | Clips (15) | Posters (7)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/iron-maiden-flight-666"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/iron-maiden-flight-666">Iron Maiden: Flight 666</a><br />
+<span style="font-size:7pt;">April 21, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> N/A<br />
+<span style="color:#6D7D31;">Writer:</span> N/A<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> N/A<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/ifc-films/wildmanofthenavidad.jpg);" class="searchthumb"><a href="/tags/the-wild-man-of-the-navidad"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-wild-man-of-the-navidad">The Wild Man of the Navidad</a><br />
+<span style="font-size:7pt;">February 11, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Duane Graves, Justin Meeks<br />
+<span style="color:#6D7D31;">Writer:</span> Duane Graves, Justin Meeks<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jacob Bargsley,  James Bargsley,  Kevin Bensmiller<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/magnet-releasing/big_man_japan.jpg);" class="searchthumb"><a href="/tags/big-man-japan"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/big-man-japan">Big Man Japan</a><br />
+<span style="font-size:7pt;">May 15, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Hitoshi Matsumoto<br />
+<span style="color:#6D7D31;">Writer:</span> Hitoshi Matsumoto<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Hitoshi Matsumoto<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (4) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/transcendent-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/transcendent-man">Transcendent Man</a><br />
+<span style="font-size:7pt;">May 1, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Barry Ptolemy<br />
+<span style="color:#6D7D31;">Writer:</span> N/A<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> N/A<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/ifc-films/man_from_london.jpg);" class="searchthumb"><a href="/tags/the-man-from-london"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-from-london">The Man from London (A londoni férfi)</a><br />
+<span style="font-size:7pt;">September 30, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Béla Tarr<br />
+<span style="color:#6D7D31;">Writer:</span> Georges Simenon, Béla Tarr, László Krasznahorkai<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Tilda Swinton,  Miroslav Krobot,  Janos Derzsi<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/magnolia-pictures/answer_man.jpg);" class="searchthumb"><a href="/tags/the-answer-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-answer-man">The Answer Man</a><br />
+<span style="font-size:7pt;">July 24, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> John Hindman<br />
+<span style="color:#6D7D31;">Writer:</span> John Hindman<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jeff Daniels,  Lauren Graham,  Lou Taylor Pucci<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (2) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/tin-can-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/tin-can-man">Tin Can Man</a><br />
+<span style="font-size:7pt;">October 9, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Ivan Kavanagh<br />
+<span style="color:#6D7D31;">Writer:</span> Ivan Kavanagh<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Patrick O'Donnell,  Michael Parle<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (3) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/american-international-pictures/amazingtransparentman.jpg);" class="searchthumb"><a href="/tags/the-amazing-transparent-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-amazing-transparent-man">The Amazing Transparent Man</a><br />
+<span style="font-size:7pt;">July 2, 1960</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Edgar G. Ulmer<br />
+<span style="color:#6D7D31;">Writer:</span> Jack Lewis<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Marguerite Chapman,  Douglas Kennedy,  James Griffith<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/the-one-man-village"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-one-man-village">The One Man Village (Semaan Bil Day'ia)</a><br />
+<span style="font-size:7pt;">May 1, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Simon El Habre<br />
+<span style="color:#6D7D31;">Writer:</span> Simon El Habre<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Unknown or Not Available<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/oscilloscope-pictures/no_impact_man.jpg);" class="searchthumb"><a href="/tags/no-impact-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/no-impact-man">No Impact Man</a><br />
+<span style="font-size:7pt;">September 4, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Laura Gabbert, Justin Schein<br />
+<span style="color:#6D7D31;">Writer:</span> <br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Colin Beavan,  Michelle Conlin<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/new-line-cinema/undisputed2.jpg);" class="searchthumb"><a href="/tags/undisputed-2"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/undisputed-2">Undisputed II: Last Man Standing</a><br />
+<span style="font-size:7pt;">January 16, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Isaac Florentine<br />
+<span style="color:#6D7D31;">Writer:</span> James Townsend, David N. White<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Michael Jai White,  Scott Adkins<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/focus-features/seriousman.jpg);" class="searchthumb"><a href="/tags/a-serious-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-serious-man">A Serious Man</a><br />
+<span style="font-size:7pt;">October 2, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Joel Coen, Ethan Coen<br />
+<span style="color:#6D7D31;">Writer:</span> Joel Coen, Ethan Coen<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Michael Stuhlbarg,  Fred Melamed,  Richard Kind<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (13) | Clips (4) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/walking-shadows/burningman.jpg);" class="searchthumb"><a href="/tags/burning-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/burning-man">Burning Man: The Burning Sensation</a><br />
+<span style="font-size:7pt;">August 10, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Alex Nohe<br />
+<span style="color:#6D7D31;">Writer:</span> Alex Nohe<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Larry Harvey,  Crimson Rose,  Will Roger<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/may-the-best-man-win"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/may-the-best-man-win">May the Best Man Win</a><br />
+<span style="font-size:7pt;">September 9, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Adam Fleischhacker<br />
+<span style="color:#6D7D31;">Writer:</span> Jack Helmuth, Adam Fleischhacker, Andrew Bowler<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Rob Huebel,  Rob Riggle,  Matt Walsh<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (5) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/ifc-films/unreasonableman.jpg);" class="searchthumb"><a href="/tags/an-unreasonable-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/an-unreasonable-man">An Unreasonable Man</a><br />
+<span style="font-size:7pt;">January 31, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Henriette Mantel, Steve Skrovan<br />
+<span style="color:#6D7D31;">Writer:</span> Henriette Mantel, Steve Skrovan<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Ralph Nader,  Jay Action,  Eric Alterman<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/samuel-goldwyn-films/eat_drink_man_woman.jpg);" class="searchthumb"><a href="/tags/eat-drink-man-woman"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/eat-drink-man-woman">Eat Drink Man Woman</a><br />
+<span style="font-size:7pt;">August 3, 1994</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Ang Lee<br />
+<span style="color:#6D7D31;">Writer:</span> Ang Lee<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Sihung Lung,  Sylvia Chang,  Chien-lien Wu<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/mirror-films/onegoodman.jpg);" class="searchthumb"><a href="/tags/one-good-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/one-good-man">One Good Man</a><br />
+<span style="font-size:7pt;">October 9, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Christian Vuissa<br />
+<span style="color:#6D7D31;">Writer:</span> Christian Vuissa<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Tim Threlfall,  Pam Eichner,  Aley Underwood<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/new-line-cinema/theman.jpg);" class="searchthumb"><a href="/tags/the-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man">The Man</a><br />
+<span style="font-size:7pt;">September 9, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Les Mayfield<br />
+<span style="color:#6D7D31;">Writer:</span> Jim Piddock, Margaret Oberman, Stephen Carpenter<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Samuel L. Jackson,  Eugene Levy,  Luke Goss<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/tetsuo_bullet_man.jpg);" class="searchthumb"><a href="/tags/tetsuo-the-bullet-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/tetsuo-the-bullet-man">Tetsuo: The Bullet Man</a><br />
+<span style="font-size:7pt;">TBA 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Shinya Tsukamoto<br />
+<span style="color:#6D7D31;">Writer:</span> Shinya Tsukamoto, Hisakatsu Kuroki<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Shinya Tsukamoto,  Eric Bossick,  Akiko Monou<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (1) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/the-weinstein-company/a_single_man.jpg);" class="searchthumb"><a href="/tags/a-single-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-single-man">A Single Man</a><br />
+<span style="font-size:7pt;">December 11, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Tom Ford<br />
+<span style="color:#6D7D31;">Writer:</span> Tom Ford, David Scearce<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Colin Firth,  Julianne Moore,  Matthew Goode<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (5) | Clips (8) | Posters (3)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/revolver-entertainment/dead_man_running.jpg);" class="searchthumb"><a href="/tags/dead-man-running"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/dead-man-running">Dead Man Running</a><br />
+<span style="font-size:7pt;">October 30, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Alex De Rakoff<br />
+<span style="color:#6D7D31;">Writer:</span> Alex De Rakoff, John Luton<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> 50 Cent,  Danny Dyer,  Brenda Blethyn<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/columbia-pictures/a_man_for_all_seasons.jpg);" class="searchthumb"><a href="/tags/a-man-for-all-seasons"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-man-for-all-seasons">A Man for All Seasons</a><br />
+<span style="font-size:7pt;">December 12, 1966</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Fred Zinnemann<br />
+<span style="color:#6D7D31;">Writer:</span> Robert Bolt (Play)<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Paul Scofield,  Wendy Hiller,  Leo McKern<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/the-man-who-bottled-clouds"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-who-bottled-clouds">The Man Who Bottled Clouds (O Homem que Engarrafava Nuvens)</a><br />
+<span style="font-size:7pt;">October 9, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Lírio Ferreira<br />
+<span style="color:#6D7D31;">Writer:</span> Unknown or Not Available<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Unknown or Not Available<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/first-run-features/mostdangerousman.jpg);" class="searchthumb"><a href="/tags/the-most-dangerous-man-in-america"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-most-dangerous-man-in-america">The Most Dangerous Man in America: Daniel Ellsberg and the Pentagon Papers</a><br />
+<span style="font-size:7pt;">January 29, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Judith Ehrlich, Rick Goldsmith<br />
+<span style="color:#6D7D31;">Writer:</span> Michael Chandler, Judith Ehrlich <br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Daniel Ellsberg,  Patricia Ellsberg,  Tony Russo<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (3) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/strand-releasing/manofmylife.jpg);" class="searchthumb"><a href="/tags/the-man-of-my-life"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-of-my-life">The Man of My Life (L'homme de sa vie)</a><br />
+<span style="font-size:7pt;">September 21, 2007</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Zabou Breitman<br />
+<span style="color:#6D7D31;">Writer:</span> Zabou Breitman, Agnès de Sacy<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Charles Berling,  Léa Drucker,  Bernard Campan<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/united-artists/man_with_golden_gun.jpg);" class="searchthumb"><a href="/tags/the-man-with-the-golden-gun"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-with-the-golden-gun">The Man With the Golden Gun</a><br />
+<span style="font-size:7pt;">December 20, 1974</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Guy Hamilton<br />
+<span style="color:#6D7D31;">Writer:</span> Ian Fleming (book), Richard Maibaum, Tom Mankiewicz<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Roger Moore,  Christopher Lee,  Britt Ekland<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (4)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/new-line-cinema/austin_powers.jpg);" class="searchthumb"><a href="/tags/austin-powers"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/austin-powers">Austin Powers: International Man of Mystery</a><br />
+<span style="font-size:7pt;">May 2, 1997</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Jay Roach<br />
+<span style="color:#6D7D31;">Writer:</span> Mike Myers<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Mike Myers,  Elizabeth Hurley,  Michael York<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (4)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/voltage-pictures/a_dangerous_man.jpg);" class="searchthumb"><a href="/tags/a-dangerous-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-dangerous-man">A Dangerous Man</a><br />
+<span style="font-size:7pt;">February 9, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Keoni Waxman<br />
+<span style="color:#6D7D31;">Writer:</span> Keoni Waxman<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Steven Seagal,  Joe Halpin<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (3) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/millennium-films/solitaryman.jpg);" class="searchthumb"><a href="/tags/solitary-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/solitary-man">Solitary Man</a><br />
+<span style="font-size:7pt;">March 10, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Brian Koppelman, David Levien<br />
+<span style="color:#6D7D31;">Writer:</span> Brian Koppelman<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Michael Douglas,  Susan Sarandon,  Danny Devito<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/the-six-dollar-fifty-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-six-dollar-fifty-man">The Six Dollar Fifty Man</a><br />
+<span style="font-size:7pt;">January 22, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Mark Albiston, Louis Sutherland<br />
+<span style="color:#6D7D31;">Writer:</span> Mark Albiston, Louis Sutherland<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Oscar Vandy-Connor,  Celine Russo-Bewisk,  Nick Blake<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/revolver-entertainment/big_river_man.jpg);" class="searchthumb"><a href="/tags/big-river-amn"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/big-river-amn">Big River Man</a><br />
+<span style="font-size:7pt;">January 18, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> John Maringouin<br />
+<span style="color:#6D7D31;">Writer:</span> N/A<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Martin Strel<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/invisible_man.jpg);" class="searchthumb"><a href="/tags/the-invisible-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-invisible-man">The Invisible Man</a><br />
+<span style="font-size:7pt;">November 13, 1933</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> James Whale<br />
+<span style="color:#6D7D31;">Writer:</span> H.G. Wells (Book), R. C. Sherriff<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Claude Rains,  Gloria Stuart,  William Harrigan<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (3) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/the-extra-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-extra-man">The Extra Man</a><br />
+<span style="font-size:7pt;">TBA 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Shari Springer Berman, Robert Pulcini<br />
+<span style="color:#6D7D31;">Writer:</span> Robert Pulcini, Jonathan Ames, Shari Springer Berman, Jonathan Ames (Book)<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Kevin Kline,  Paul Dano,  John C. Reilly<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/wolfman1941.jpg);" class="searchthumb"><a href="/tags/the-wolf-man-1941"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-wolf-man-1941">The Wolf Man (1941)</a><br />
+<span style="font-size:7pt;">December 12, 1941</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> George Waggner<br />
+<span style="color:#6D7D31;">Writer:</span> Curt Siodmak<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Lon Chaney Jr.,  Claude Rains,  Warren William<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (6) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/man-on-a-mission"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-on-a-mission">Man on a Mission</a><br />
+<span style="font-size:7pt;">March 12, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Mike Woolf<br />
+<span style="color:#6D7D31;">Writer:</span> N/A<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> N/A<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/universal-pictures/frankenstein_wolfman.jpg);" class="searchthumb"><a href="/tags/frankenstein-meets-the-wolf-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/frankenstein-meets-the-wolf-man">Frankenstein Meets the Wolf Man</a><br />
+<span style="font-size:7pt;">March 5, 1943</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Roy William Neill<br />
+<span style="color:#6D7D31;">Writer:</span> Curt Siodmak<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Lon Chaney Jr.,  Ilona Massey,  Patric Knowles<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (3) | Posters (3)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/ironcrows.jpg);" class="searchthumb"><a href="/tags/iron-crows"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/iron-crows">Iron Crows</a><br />
+<span style="font-size:7pt;">March 15, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Bong-Nam Park<br />
+<span style="color:#6D7D31;">Writer:</span> Unknown or Not Available<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Unknown or Not Available<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (3)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/magnolia-pictures/diarytiredblackman.jpg);" class="searchthumb"><a href="/tags/diary-of-tired-black-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/diary-of-tired-black-man">Diary of a Tired Black Man</a><br />
+<span style="font-size:7pt;">February 3, 2009</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Tim Alexander<br />
+<span style="color:#6D7D31;">Writer:</span> Tim Alexander<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jimmy Jean-Louis,  Paula Lema,  Tim Alexander<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (1) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/iron_cross.jpg);" class="searchthumb"><a href="/tags/iron-cross"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/iron-cross">Iron Cross</a><br />
+<span style="font-size:7pt;">September 1, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Joshua Newton<br />
+<span style="color:#6D7D31;">Writer:</span> Joshua Newton<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Roy Scheider,  Alexander Newton,  Calita Rainford<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/mainline-releasing/manscreamingbrain.jpg);" class="searchthumb"><a href="/tags/man-with-screaming-brain"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/man-with-screaming-brain">Man with the Screaming Brain</a><br />
+<span style="font-size:7pt;">November 10, 2005</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Bruce Campbell<br />
+<span style="color:#6D7D31;">Writer:</span> Bruce Campbell<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Bruce Campbell,  Stacy Keach,  Tamara Gorski<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/mandarin-films/ipman.jpg);" class="searchthumb"><a href="/tags/ip-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/ip-man">Ip Man</a><br />
+<span style="font-size:7pt;">December 12, 2008</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Wilson Yip<br />
+<span style="color:#6D7D31;">Writer:</span> Edmond Wong<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Donnie Yen,  Simon Yam,  Siu-Wong Fan<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (1) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/mandarin-films/ipman2.jpg);" class="searchthumb"><a href="/tags/ip-man-2"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/ip-man-2">Ip Man 2</a><br />
+<span style="font-size:7pt;">April 29, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Wilson Yip<br />
+<span style="color:#6D7D31;">Writer:</span> Edmond Wong<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Donnie Yen,  Sammo Hung,  Huang Xiao Ming<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (6) | Clips (0) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/a-man-came-and-took-her"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-man-came-and-took-her">A Man Came and Took Her</a><br />
+<span style="font-size:7pt;">May 1, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Jedrzej Niestroj, Rafal Przybyl<br />
+<span style="color:#6D7D31;">Writer:</span> Jedrzej Niestroj, Rafal Przybyl<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> N/A<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/paper_man.jpg);" class="searchthumb"><a href="/tags/paper-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/paper-man">Paper Man</a><br />
+<span style="font-size:7pt;">April 23, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Kieran Mulroney, Michele Mulroney<br />
+<span style="color:#6D7D31;">Writer:</span> Kieran Mulroney, Michele Mulroney<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jeff Daniels,  Emma Stone,  Ryan Reynolds<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (4) | Posters (2)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/portrait_of_a_man.jpg);" class="searchthumb"><a href="/tags/portrait-of-a-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/portrait-of-a-man">Portrait Of A Man</a><br />
+<span style="font-size:7pt;">May 3, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Visa Koiso-Kanttila<br />
+<span style="color:#6D7D31;">Writer:</span> Visa Koiso-Kanttila<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> N/A<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/unknown/man_who_will_come.jpg);" class="searchthumb"><a href="/tags/the-man-who-will-come"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/the-man-who-will-come">The Man Who Will Come (L'uomo che verrà)</a><br />
+<span style="font-size:7pt;">April 23, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Giorgio Diritti<br />
+<span style="color:#6D7D31;">Writer:</span> Giorgio Diritti, Giovanni Galavotti, Tania Pedroni<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Alba Rohrwacher,  Maya Sansa,  Claudio Casadio<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (1) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/images/nosearchthumb.jpg);" class="searchthumb"><a href="/tags/a-screaming-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/a-screaming-man">A Screaming Man (Un Homme Qui Crie)</a><br />
+<span style="font-size:7pt;">TBA 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Mahamat-Saleh Haroun<br />
+<span style="color:#6D7D31;">Writer:</span> Mahamat-Saleh Haroun<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Emile Abossolo M'bo,  Youssouf Djaoro,  Dioucounda Koma<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (0) | Clips (1) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/blind-spot-pictures/ironsky.jpg);" class="searchthumb"><a href="/tags/iron-sky"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/iron-sky">Iron Sky</a><br />
+<span style="font-size:7pt;">January 10, 2011</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Timo Vuorensola<br />
+<span style="color:#6D7D31;">Writer:</span> Antti Hukkanen, Jarmo Puskala<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Udo Kier,  Götz Otto,  Julia Dietze<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (10) | Clips (0) | Posters (1)</span></div><div style="width:560px; height:160px; padding:40px 20px 0px 20px; background:url(/images/searchitem.png); text-align:left; margin-bottom:12px;"><div style="float:left; width:104px; position:relative; top:-20px;">
+<center>
+<div style="background:url(/pthumb.php?dir=/content/kino-international/winnebago_man.jpg);" class="searchthumb"><a href="/tags/winnebago-man"><!--[if IE 6]><img src="/images/postercoverbk.png" border="0" /><![endif]--><!--[if !IE 6]><!--><img src="/images/postercover.png" border="0" /><!--<![endif]--></a></div>
+</center>
+</div><a href="/tags/winnebago-man">Winnebago Man</a><br />
+<span style="font-size:7pt;">July 9, 2010</span><br /><br />
+<span style="color:#6D7D31;">Director:</span> Ben Steinbauer<br />
+<span style="color:#6D7D31;">Writer:</span> Ben Steinbauer<br />
+<span style="color:#6D7D31;">Condensed Cast:</span> Jack Rebney<br />
+<br /><span style="color:#6D7D31; font-size:7pt;">Trailers (2) | Clips (0) | Posters (1)</span></div><!-- end custom find -->
+
+<!-- Google Search Result Snippet Begins -->
+<div id="googleSearchUnitIframe"></div>
+
+<script type="text/javascript">
+   var googleSearchIframeName = 'googleSearchUnitIframe';
+   var googleSearchFrameWidth = 600;
+   var googleSearchFrameborder = 0 ;
+   var googleSearchDomain = 'www.google.com';
+</script>
+<script type="text/javascript"
+         src="http://www.google.com/afsonline/show_afs_search.js">
+</script>
+<!-- Google Search Result Snippet Ends -->
+</div>
+<!-- end left column -->
+
+<!-- right column -->
+<div class="rightcolumn">
+<a href="/trailer/inception/theatrical-trailer"><img src="/content/featured/inception-b.jpg" border="0" alt="Inception - Theatrical Trailer" title="Inception - Theatrical Trailer"></a><div class="countdown" style="display:none;">
+<div style="padding-top:8px">
+<!-- BEGIN GN Ad Tag for Trailer Addict 160x200 ros -->
+<script language="JavaScript" type="text/javascript">
+if (typeof(gnm_ord)=='undefined') gnm_ord=Math.random()*10000000000000000; if (typeof(gnm_tile) == 'undefined') gnm_tile=1;
+document.write('<scr'+'ipt language="JavaScript" src="http://n4403ad.doubleclick.net/adj/gn.traileraddict.com/ros;sect=ros;sz=160x200;tile='+(gnm_tile++)+';ord=' + gnm_ord + '?" type="text/javascript"></scr' + 'ipt>');
+</script>
+<!-- END AD TAG -->
+</div>
+</div><div class="rightf">
+<div class="right2">
+<span style="position:relative;top:2px;">Worth Watching</span><br /><br />
+<a href="/trailer/the-last-exorcism/trailer"><img src="/content/featured/lastexorcism-s.jpg" border="0" alt="The Last Exorcism - Trailer" title="The Last Exorcism - Trailer" style="margin-bottom:4px;"></a><br /><a href="/poster/inception/5"><img src="/content/featured/inception-p2.jpg" border="0" alt="Inception - Posters" title="Inception - Posters" style="margin-bottom:4px;"></a><br /><a href="/trailer/megamind/trailer"><img src="/content/featured/megamind-s2.jpg" border="0" alt="Megamind - Trailer" title="Megamind - Trailer" style="margin-bottom:4px;"></a><br /></div>
+<div class="right2b"></div>
+<a href="/attraction/1"><img src="/images/moref.png" border="0" /></a>
+</div>
+
+<div class="rightad">
+<div class="right1">
+<span style="position:relative;top:2px;">Sponsors Like Trailers!</span><br /><br />
+<script type='text/javascript'><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https:///ajs.php':'http://optimize.indieclick.com/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=141402");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script><noscript><a href='http://optimize.indieclick.com/www/delivery/ck.php?n=a3019264&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'><img src='http://optimize.indieclick.com/www/delivery/avw.php?zoneid=141402&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a3019264' border='0' alt='' /></a></noscript></div>
+<div class="right1b"></div>
+</div>
+
+<div style="clear:both; height:0px;"></div>
+
+<div class="rsection2" style="padding:11px 0px 0px 0px; width:300px;">
+  <span style="position:relative; left:6px;"><h5>Watching Now </h5></span>
+<br />
+<br />
+<div class="newlist">
+	<a href="/trailer/baby-on-board/trailer"><img src="/content/angry-monkey-entertainment/babyonboard.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/trailer/baby-on-board/trailer">Baby on Board</a></h2><br />
+	Trailer<br />
+	Rating:<img src="/images/rate/na.gif" align="absmiddle" /><br />
+	Runtime: 2m42s | Views: 9,699</span>
+	</div> <div class="newlist">
+	<a href="/trailer/the-last-airbender/teaser-trailer"><img src="/content/paramount-pictures/lastairbender.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/trailer/the-last-airbender/teaser-trailer">The Last Airbender</a></h2><br />
+	Teaser Trailer<br />
+	Rating:<img src="/images/rate/9.gif" align="absmiddle" /><br />
+	Runtime: 1m41s | Views: 105,854</span>
+	</div> <div class="newlist">
+	<a href="/trailer/the-philosopher-kings/trailer"><img src="/content/unknown/philosopherkings.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/trailer/the-philosopher-kings/trailer">The Philosopher Kings</a></h2><br />
+	Trailer<br />
+	Rating:<img src="/images/rate/10.gif" align="absmiddle" /><br />
+	Runtime: 3m39s | Views: 617</span>
+	</div> <div class="newlist">
+	<a href="/trailer/life-aquatic/trailer"><img src="/content/touchstone-pictures/lifeaquatic.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/trailer/life-aquatic/trailer">The Life Aquatic With Steve Zissou</a></h2><br />
+	Trailer<br />
+	Rating:<img src="/images/rate/na.gif" align="absmiddle" /><br />
+	Runtime: 2m31s | Views: 55,788</span>
+	</div> <div class="newlist">
+	<a href="/trailer/postal/feature-trailer"><img src="/content/freestyle-releasing/postal.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/trailer/postal/feature-trailer">Postal</a></h2><br />
+	Feature Trailer<br />
+	Rating:<img src="/images/rate/7.gif" align="absmiddle" /><br />
+	Runtime: 1m36s | Views: 46,689</span>
+	</div> <div class="newlist">
+	<a href="/trailer/daddy-longlegs/trailer"><img src="/content/unknown/daddy_longlegs.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/trailer/daddy-longlegs/trailer">Daddy Longlegs</a></h2><br />
+	Trailer<br />
+	Rating:<img src="/images/rate/na.gif" align="absmiddle" /><br />
+	Runtime: 1m30s | Views: 2,637</span>
+	</div> <div class="newlist" style="border-bottom:none;">
+	<a href="/clip/case-39/in-trouble"><img src="/content/paramount-pictures/case39.png" class="rightthumb"></a>
+	<img src="/images/blendlist.png" class="absi" />
+	<span class="afix"><h2><a href="/clip/case-39/in-trouble">Case 39</a></h2><br />
+	In Trouble<br />
+	Rating:<img src="/images/rate/10.gif" align="absmiddle" /><br />
+	Runtime: 2m32s | Views: 2,707</span>
+	</div> </div>
+<div class="rsection2b"></div>
+
+<!-- blogads -->
+<div class="clearfix">
+<div style="background:url(/images/blogadsbg.png) repeat-y center top #FFFFFF; min-height:200px; width:150px; float:right; margin-right:12px;">
+<center>
+<link rel="stylesheet" type="text/css" href="http://cache.blogads.com/262735806/feed.css" />
+<script language="javascript" src="http://cache.blogads.com/262735806/feed.js"></script>
+</center>
+</div>
+<div style="background:url(/images/blogadsbg.png) repeat-y center top #FFFFFF; min-height:200px; width:150px; float:left; margin-left:10px;">
+<center>
+<link rel="stylesheet" type="text/css" href="http://cache.blogads.com/118159502/feed.css" />
+<script language="javascript" src="http://cache.blogads.com/118159502/feed.js"></script>
+</center>
+</div>
+</div>
+<!-- end blog ads -->
+<div class="rsection2">
+<h5>Trailer Feed</h5> <a href="/rss"><img src="/images/rss.gif" alt="RSS" align="texttop" style="margin-left:4px; position:relative; top:-1px;" border="0" /></a>
+<br />
+<div class="rmargin">
+<a href="http://www.heffee.com/savefeed.php?url=http%3A%2F%2Fwww.traileraddict.com%2Frss" target="_blank"><img src="/images/rss/heffee-sub.gif" width="80" height="15" border="0"></a>&nbsp;
+
+<script type="text/javascript" language="javascript">
+document.write('<a href="http://add.my.yahoo.com/rss?url=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/yahoo.gif" width="91" height="17" border="0"></a>&nbsp;<a href="http://www.newsgator.com/ngs/subscriber/subext.aspx?url=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/newsgator.gif" width="91" height="17" border="0"></a>&nbsp;<a href="http://client.pluck.com/pluckit/prompt.aspx?a=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/pluck.gif" width="91" height="17" border="0"></a>',
+				'<a href="http://feeds.my.aol.com/add.jsp?url=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/myaol.gif" width="63" height="14" border="0"></a>&nbsp;<a href="http://www.rojo.com/add-subscription?resource=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/rojo.gif" width="52" height="17" border="0"></a>&nbsp;<a href="http://www.bloglines.com/sub/http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/bloglines.gif" width="80" height="15" border="0"></a>',
+				'<a href="http://www.netvibes.com/subscribe.php?url=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/netvibes.gif" width="91" height="17" border="0"></a>&nbsp;<a href="http://fusion.google.com/add?feedurl=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/google.gif" width="104" height="17" border="0"></a>&nbsp;<a href="http://www.pageflakes.com/subscribe.aspx?url=http://www.traileraddict.com/rss" target="_blank"><img src="/images/rss/pageflakes.gif" width="81" height="17" border="0"></a>');
+</script>
+</div>
+</div>
+<div class="rsection2b"></div>
+
+<div class="rsection2">
+<h5>Are You a Trailer Addict?</h5>
+<br />
+<div class="rmargin">
+<script type="text/javascript" language="javascript">
+document.write('<div style="padding-left:19px; text-align:left;"><a href="http://www.twitter.com/traileraddict" target="_blank"><img src="/images/social/ros-twitter.png" border="0"></a> &nbsp; <a href="http://www.facebook.com/traileraddicts" target="_blank"><img src="/images/social/ros-facebook.png" border="0"></a> &nbsp; <a href="/rss"><img src="/images/social/ros-rss.png" border="0"></a></div>');
+</script><br />Trailer Addict has setup TA, Trailers Anoymous. Feel free to contact us at with your scoops, comments or advertising inquiries at the following email address. <br />
+<br />
+<center>
+<img src="/images/email.png" alt="TA Email" />
+</center>
+</div>
+</div>
+<div class="rsection2b"></div>
+
+</div>
+<!-- end right column -->
+
+
+</div>
+<!-- end body -->
+</center>
+<iframe style="display:none;" src="" name="fdb" id="fdb"></iframe>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3097998-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+_qoptions={
+qacct:"p-b1ea-UEBqARAY"
+};
+</script>
+<script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+<noscript>
+<img src="http://pixel.quantserve.com/pixel/p-b1ea-UEBqARAY.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+</noscript>
+<!-- End Quantcast tag -->
+</body>
+</html>
