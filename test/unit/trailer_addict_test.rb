@@ -43,6 +43,20 @@ class TrailerAddictTest < Test::Unit::TestCase
     end
   end
   
+  test "get_trailer_embed_code should raise ArgumentError if movie title not supplied" do
+    assert_raises ArgumentError do
+      TrailerAddict.get_trailer_embed_code
+    end
+  end
+  
+  test "get_trailer_embed_code should return embed code" do
+    embed_code = TrailerAddict.get_trailer_embed_code("Iron Man")
+    assert embed_code.include?("<embed")
+    assert embed_code.include?("<object")
+    assert embed_code.include?("</object>")
+    assert embed_code.include?("</embed>")
+  end
+  
   test "get url returns a response object" do
     test_response = TrailerAddict.get_url("http://example.com/")
     assert_equal 200, test_response.code.to_i
